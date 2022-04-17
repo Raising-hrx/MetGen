@@ -1,0 +1,10 @@
+BLEURT==0.0.2
+glog==0.3.1
+lemminflect==0.2.2
+numpy==1.19.5
+scikit_learn==1.0.2
+spacy==3.0.6
+tensorflow==2.4.0
+torch==1.7.1
+tqdm==4.61.0
+transformers==4.8.0
