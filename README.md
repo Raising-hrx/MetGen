@@ -1,6 +1,5 @@
 # MetGen
 
-# Introduction
 An implementation for `MetGen: A Module-based Entailment Tree Generation Framework for Answer Explanation`.
 
 
@@ -19,7 +18,7 @@ Download [EntailmentBank dataset](https://allenai.org/data/entailmentbank).
 
 Download [our processed data](https://cloud.tsinghua.edu.cn/f/15ee068aa4a8495b838e/?dl=1).
 
-The `data/` folder should contain four files：
+The `data/` folder should contain four folders:
 
 ```
 data
@@ -34,8 +33,8 @@ data
 ## Single-step entialment module
 
 Follow the `./scripts/train_module.sh` to train the prefixed module.
-- Step1: train the module with synthetic data
-- Step2: train the module with Train-pseudo data
+- Step1: train the module with synthetic data;
+- Step2: train the module with Train-pseudo data.
 
 The trained module would be saved in the `/exp/Module_all/para_etree_all` folder.
 
@@ -43,8 +42,8 @@ The trained module would be saved in the `/exp/Module_all/para_etree_all` folder
 ## Reasoning controller
 Follow the `./scripts/train_controller.sh` to train the reasoning controller.
 
-- Step1: make controller training data based on the orginal dataset and the trained module
-- Step2: train the controller with the data
+- Step1: make controller training data based on the orginal dataset and the trained module;
+- Step2: train the controller with the data.
 
 We train two controllers, one for Task 1 and one for Task 2/3.
 The trained controller would be save in the `/exp/Controller_task1` and `/exp/Controller_task2` folders.
@@ -54,8 +53,8 @@ The trained controller would be save in the `/exp/Controller_task1` and `/exp/Co
 ## Inference
 Follow the `./scripts/test_task1.sh`, `./scripts/test_task2.sh`, and `./scripts/test_task3.sh` to obtain the predictions based on the trained module and controllers.
 
-- Step1: select the checkpoint and the hyperparameters of reasoning algorithm using the dev split 
-- Step2: run the reasoning algorithm with the selected checkpoint and hyperparameters on the test split
+- Step1: select the checkpoint and the hyperparameters of reasoning algorithm using the dev split;
+- Step2: run the reasoning algorithm with the selected checkpoint and hyperparameters on the test split.
 
 The predictions would be save in `.json` and `.csv` files.
 
@@ -67,7 +66,7 @@ For Task 1 and Task 2, we also provide the evaluation metrics by our implementat
 # Trained Models
 
 We provide the trained models ([entailment module](https://cloud.tsinghua.edu.cn/f/3608bd001f7a41dca829/?dl=1) and [reasoning controller](https://cloud.tsinghua.edu.cn/f/fd128fdc7e754cb699f9/?dl=1)) for direct reproduction.
-Unzip the file and place it in `exp` folder.
+Unzip the files and place them in `exp/` folder.
 Run the following commands to reproduce the results.
 ```
 cd scripts
