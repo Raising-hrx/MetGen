@@ -1,13 +1,12 @@
-# MetGen: A Module-based Entailment Tree Generation Framework for Answer Explanation
+# MetGen
 
 # Introduction
 An implementation for `MetGen: A Module-based Entailment Tree Generation Framework for Answer Explanation`.
-Please contact [Ruixin Hong](hrx20@mails.tsinghua.edu.cn) for questions and suggestions.
 
 
 # Requirements
-- Python3.8
-- Ubuntu21.04
+- Python 3.8
+- Ubuntu 21.04
 - Python Packages
 ```
 conda create -n metgen python=3.8
@@ -18,9 +17,9 @@ pip install -r requirements.txt
 # Data
 Download [EntailmentBank dataset](https://allenai.org/data/entailmentbank).
 
-Download [preprocessed data](this link).
+Download [our processed data](https://cloud.tsinghua.edu.cn/f/15ee068aa4a8495b838e/?dl=1).
 
-`data/` folder contains four files：
+The `data/` folder should contain four files：
 
 ```
 data
@@ -60,14 +59,14 @@ Follow the `./scripts/test_task1.sh`, `./scripts/test_task2.sh`, and `./scripts/
 
 The predictions would be save in `.json` and `.csv` files.
 
-## Automatic Metric
+## Automatic Evaluation
 Use the `.csv` file and follow the [offical evaluation code of EntailmentBank](https://github.com/allenai/entailment_bank) to evaluate automatically.
 
-For Task 1 and Task 2, we also provide the evaluation results by our implementation of the evaluation code (`code/evaluate_metric.py`).
+For Task 1 and Task 2, we also provide the evaluation metrics by our implementation (`code/evaluate_metric.py`).
 
 # Trained Models
 
-We provide the [trained models](this link) for direct reproduction.
+We provide the trained models ([entailment module](https://cloud.tsinghua.edu.cn/f/3608bd001f7a41dca829/?dl=1) and [reasoning controller](https://cloud.tsinghua.edu.cn/f/fd128fdc7e754cb699f9/?dl=1)) for direct reproduction.
 Unzip the file and place it in `exp` folder.
 Run the following commands to reproduce the results.
 ```
@@ -77,6 +76,7 @@ sh test_task2.sh
 sh test_task3.sh
 ```
 
+Please contact [Ruixin Hong](hrx20@mails.tsinghua.edu.cn) for questions and suggestions.
 
 
 # Citation
