@@ -1,6 +1,6 @@
 # MetGen
 
-An implementation for `MetGen: A Module-based Entailment Tree Generation Framework for Answer Explanation`.
+An implementation for [MetGen: A Module-Based Entailment Tree Generation Framework for Answer Explanation](https://arxiv.org/abs/2205.02593).
 
 
 # Requirements
