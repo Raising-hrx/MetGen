@@ -88,7 +88,7 @@ def module_generate(input_sents,model,tokenizer,args,num_return=1):
             top_p = 0.9,
             do_sample = True,
             max_length= 50, 
-            num_return_sequences = num_return,  # can eval with more than one sample  # 但是好像影响不大，多次生成的差不太多
+            num_return_sequences = num_return, 
         )
         decoded = tokenizer.batch_decode(generated, skip_special_tokens=True)
     
