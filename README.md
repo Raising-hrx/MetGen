@@ -3,11 +3,11 @@
 An implementation for [MetGen: A Module-Based Entailment Tree Generation Framework for Answer Explanation](https://arxiv.org/abs/2205.02593).
 
 <p align="center">
-<img src="images/intro.pdf" alt="Task definition" width="350"/>
+<img src="images/intro.jpg" alt="Task definition" width="250"/>
 </p>
 
 <p align="center">
-<img src="images/search.pdf" alt="MetGen Search" width="350"/>
+<img src="images/search.jpg" alt="MetGen Search" width="700"/>
 </p>
 
 
