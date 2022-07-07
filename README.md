@@ -2,6 +2,14 @@
 
 An implementation for [MetGen: A Module-Based Entailment Tree Generation Framework for Answer Explanation](https://arxiv.org/abs/2205.02593).
 
+<p align="center">
+<img src="images/intro.pdf" alt="Task definition" width="350"/>
+</p>
+
+<p align="center">
+<img src="images/search.pdf" alt="MetGen Search" width="350"/>
+</p>
+
 
 # Requirements
 - Python 3.8
@@ -79,4 +87,15 @@ Please contact [Ruixin Hong](hrx20@mails.tsinghua.edu.cn) for questions and sugg
 
 
 # Citation
-The citation is coming up soon.
+```
+@inproceedings{hong-2022-metgen,
+    title = "{M}et{G}en: {A} Module-Based Entailment Tree Generation Framework for Answer Explanation",
+    author = "Hong, Ruixin  and
+      Zhang, Hongming  and
+      Yu, Xintong  and
+      Zhange, Changshui",
+      booktitle = "Findings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+      year={2022}
+}
+
+```

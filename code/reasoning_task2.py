@@ -225,7 +225,7 @@ def search_task2(data_item,reasoning_module_tuple,reasoning_module_abd_tuple, co
         else:
             new_fact_id = []
             new_fact_sent = []
-            sorted_index = list(np.argsort(state['fact_score']))[::-1] # 得分从大到小
+            sorted_index = list(np.argsort(state['fact_score']))[::-1]
             for idx in sorted_index[:filter_min_fact]: 
                 new_fact_id.append(state['fact_ids'][idx])
                 new_fact_sent.append(state['fact_sents'][idx])
