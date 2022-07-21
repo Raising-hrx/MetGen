@@ -88,14 +88,25 @@ Please contact [Ruixin Hong](hrx20@mails.tsinghua.edu.cn) for questions and sugg
 
 # Citation
 ```
-@inproceedings{hong-2022-metgen,
-    title = "{M}et{G}en: {A} Module-Based Entailment Tree Generation Framework for Answer Explanation",
-    author = "Hong, Ruixin  and
-      Zhang, Hongming  and
-      Yu, Xintong  and
-      Zhang, Changshui",
-      booktitle = "Findings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
-      year={2022}
+@inproceedings{DBLP:conf/naacl/HongZYZ22,
+  author    = {Ruixin Hong and
+               Hongming Zhang and
+               Xintong Yu and
+               Changshui Zhang},
+  editor    = {Marine Carpuat and
+               Marie{-}Catherine de Marneffe and
+               Iv{\'{a}}n Vladimir Meza Ru{\'{\i}}z},
+  title     = {{M}et{G}en: {A} Module-Based Entailment Tree Generation Framework for
+               Answer Explanation},
+  booktitle = {Findings of the Association for Computational Linguistics: {NAACL}
+               2022, Seattle, WA, United States, July 10-15, 2022},
+  pages     = {1887--1905},
+  publisher = {Association for Computational Linguistics},
+  year      = {2022},
+  url       = {https://aclanthology.org/2022.findings-naacl.145},
+  timestamp = {Mon, 18 Jul 2022 17:13:00 +0200},
+  biburl    = {https://dblp.org/rec/conf/naacl/HongZYZ22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
 ```
